@@ -1,13 +1,19 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    box-sizing:border-box;
+}
 html {
     height:100%;
-
 }
+
 body {
+    font-family: 'Kumbh Sans', sans-serif;
     /*DEPOIS EU TERMINO DE FAZER. PRECISO DE UM REFERENCIAL ANTES*/
-    background: url('../images/bg-pattern-top.svg') no-repeat,  url('../images/bg-pattern-botto.svg') no-repeat , hsl(185, 75%, 39%);
-    background-position: left -150px bottom -100px;
+    background: url('../images/bg-pattern-top.svg') no-repeat,  url('../images/bg-pattern-bottom.svg') no-repeat , hsl(185, 75%, 39%);
+    background-position:left -200px top -400px , right -190px bottom -450px ;
+    background-size:700px, 700px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -16,18 +22,21 @@ body {
 
 }
 main {
-    width: 250px;
-    height: 270px;
-    box-sizing:border-box;
+    
+    width: 330px;
+    height: 350px;
     margin:0;
 }
 img {
-    margin:60px 77px;
+    width:105px;
+    height:auto;
+    margin-top:140px;
     border-radius:50%;
-    border: 2px solid #555;
-
+    border: 5px solid rgb(255, 255, 255);
 }
 #background-blue {
+    display:flex;
+    align-items:center;
     justify-content:center;
     height:40%;
     background:url('../images/bg-pattern-card.svg') no-repeat;
@@ -39,5 +48,14 @@ img {
     border-bottom-right-radius:10px;
     height:60%;
     background:rgba(255, 255, 255, 1);
+    display:flex;
+    justify-content:center;
+}
+h1 {
+    margin:70px;
+    font-weight: 700;
+    font-size:18px;
+    color:hsl(0, 0%, 59%);
+
 
 }
