@@ -12,8 +12,8 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     /*DEPOIS EU TERMINO DE FAZER. PRECISO DE UM REFERENCIAL ANTES*/
     background: url('../images/bg-pattern-top.svg') no-repeat,  url('../images/bg-pattern-bottom.svg') no-repeat , hsl(185, 75%, 39%);
-    background-position:left -160px top -420px , right -150px bottom -480px ;
-    background-size:800px, 800px;
+    background-position:top -40vh left -10vw, bottom -55vh right -5vw;
+    background-size:50em, 50em;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -102,21 +102,21 @@ p {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     main {
         width: 330px;
         height: 380px;
     }
     body {
-        background-size: 700px, 700px;
-        background-position: left -441px top -480px , right -498px bottom -361px;
+        background-size: 43.75em, 43.75em;
+        background-position: left -130vw  top -40vh , right -60vh bottom -40vh;
     }
 }
 
  
-@media only screen and (min-width: 600px) and (max-width:1000px) {
+@media only screen and (min-width: 600px) and (max-width:1100px) {
     body {
-        background-position: left -482px top -480px , right -532px bottom -414px
+            background-position:top -40vh left -35vw, bottom -57vh right -25vw;
     }
 
 }
