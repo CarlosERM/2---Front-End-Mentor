@@ -2,23 +2,6 @@
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
-
-
-## Overview
-The second time i used css alone in a layout. 
-### The challenge
-
-- Build out the project to the designs provided
-
 ### Screenshot
 
 ![Frontend Mentor Profile card component](https://user-images.githubusercontent.com/74724103/115027097-a926a880-9e99-11eb-9fb5-bacf24e2b32f.png)
